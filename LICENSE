@@ -1,28 +1,21 @@
-if not settings.startup["real-steam-replace-boiler-smoke"].value then
-  return
-end
+MIT License
 
-if not (data.raw["trivial-smoke"] and data.raw["trivial-smoke"]["real-steam-pressure-puff"]) then
-  return
-end
+Copyright (c) 2026 Squishy1870
 
-local function patch_boiler_smoke(boiler)
-  if not boiler or not boiler.energy_source or not boiler.energy_source.smoke then
-    return
-  end
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-  for _, smoke in pairs(boiler.energy_source.smoke) do
-    if smoke.name then
-      smoke.name = "real-steam-pressure-puff"
-    end
-    smoke.frequency = (smoke.frequency or 1) * 0.75
-    smoke.starting_vertical_speed = (smoke.starting_vertical_speed or 0.08) * 0.75
-    smoke.slow_down_factor = smoke.slow_down_factor or 1
-  end
-end
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 
-if data.raw["boiler"] then
-  for _, boiler in pairs(data.raw["boiler"]) do
-    patch_boiler_smoke(boiler)
-  end
-end
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.

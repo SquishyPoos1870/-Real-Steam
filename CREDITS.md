@@ -1,4 +1,20 @@
 ---------------------------------------------------------------------------------------------------
+Version: 1.0.14
+Date: 13.06.2026
+  Changes:
+    - Updated mod thumbnail/presentation assets for the Mod Portal.
+    - No gameplay, balance, or performance changes.
+
+---------------------------------------------------------------------------------------------------
+Version: 1.0.13
+Date: 13. 06. 2026
+  Changes:
+    - Added the new Real Steam thumbnail artwork for the Mod Portal page.
+    - Updated the package version for a clean Mod Portal refresh upload.
+  Notes:
+    - No gameplay logic, balance, or performance changes from 1.0.12.
+
+---------------------------------------------------------------------------------------------------
 Version: 1.0.12
 Date: 13. 06. 2026
   Changes:
