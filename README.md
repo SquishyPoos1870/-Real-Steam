@@ -1,7 +1,3 @@
-## 🎥 Real Steam Demo
-
-![Real Steam demo](https://raw.githubusercontent.com/SquishyPoos1870/-Real-Steam/main/Factorio%202026.06.13%20-%2018.35.53.02.mp4)
-
 **Real Steam** adds extra steam ambience to boilers, steam engines, steam turbines, heat exchangers, and steam pipes so your factory feels more alive.
 
 Instead of everything looking perfectly sealed and static, steam systems can now hiss, vent, and leak lightly under pressure.
