@@ -109,26 +109,3 @@ It is meant to sit somewhere between **vanilla Factorio** and a more immersive i
 - Built using Factorio base-game smoke prototypes as the foundation for custom steam-style vapour effects
 
 Factorio is made by Wube Software. This is an independent fan-made mod and is not affiliated with or endorsed by Wube Software.
-
-
----
-
-## 📦 Package Notes
-
-This package includes:
-
-- `info.json`
-- `control.lua`
-- `data.lua`
-- `data-final-fixes.lua`
-- runtime/startup settings
-- English locale text
-- thumbnail
-- changelog
-- credits
-- license
-- Mod Portal description file
-
-## 📜 License
-
-See `LICENSE` for the full license text.
