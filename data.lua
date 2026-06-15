@@ -52,6 +52,21 @@ if base_smoke then
       "real-steam-pipe-dribble",
       {r = 0.88, g = 0.94, b = 1.00, a = 0.055},
       22, 2, 9, 12, 0.016, 0.070, 0.999, false
+    ),
+    make_steam(
+      "real-steam-pipe-whisper-wind",
+      {r = 0.92, g = 0.96, b = 1.00, a = 0.070},
+      34, 3, 15, 22, 0.026, 0.130, 0.994, true
+    ),
+    make_steam(
+      "real-steam-pipe-full-leak-wind",
+      {r = 0.90, g = 0.95, b = 1.00, a = 0.095},
+      44, 4, 20, 30, 0.040, 0.205, 0.994, true
+    ),
+    make_steam(
+      "real-steam-pipe-dribble-wind",
+      {r = 0.88, g = 0.94, b = 1.00, a = 0.052},
+      28, 2, 12, 18, 0.016, 0.080, 0.996, true
     )
   })
 end
